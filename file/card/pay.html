@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="pay.js"></script>
+    <style>
+        a {
+            TEXT-DECORATION: none
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="leftdiv">
+                <div class="navtextleft" style="font-size:20px;color:white;font-weight:bold;">CC98抽卡</div>
+                <div class="navtextleft">主页</div>
+                <a href="draw.html" class="navtextleft">抽卡</a>
+                <div class="navtextleft">我的收藏</div>
+                <div class="navtextleft">兑换奖励</div>
+                <div class="navtextleft">排行榜</div>
+                <div class="navtextleft">关于</div>
+            </div>
+            <div class="rightdiv">
+                <div class="navtextright">AsterNighT</div>
+                <div class="navtextright">财富值</div>
+                <div class="navtextright" id="cash">1975</div>
+                <a href="pay.html" class="navtextright">充钱</a>
+            </div>
+        </nav>
+    </div>
+</body>
+    <div class="div-verticle" style = "margin-top:5rem;">
+        <div class = "hor-center">
+            <div id = "cashPresent" class = "hor-center">你目前的余额是：</div>
+        </div>
+        <div class = "hor-center">
+            <input id = "number" type="text" value="2000" />
+            <button class = "button" onclick="pay()">充钱！</button>
+        </div>
+    </div>
+
+</html>
